@@ -1,4 +1,4 @@
-![image](https://github.com/huzaifa-jawad367/HackTheBox/assets/103884662/05b8ad50-06bb-41f8-9652-2a0d2e788372)# Meow
+# Meow
 
 ## Step 0 - Download VPN
 
