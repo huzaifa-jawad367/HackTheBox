@@ -50,3 +50,25 @@ Ans: root
 # Task 8
 **Submit root flag** \
 Ans: 
+Check for open ports at the spawned device using the nmap command: 
+```
+nmap -v <ip-address of spawned machine>
+```
+![image](https://github.com/huzaifa-jawad367/HackTheBox/assets/103884662/07f5a0ca-ac58-48ee-a350-bd37d95e3a80)
+
+Use telnet to access the spawned machine:
+```
+telnet <ip-address of spawned machine>
+```
+
+it will ask for credentials. We can enter `root`. There is no need for a password if we login with root.
+
+Enter the `ls` comand to look at the available directories. There will be a file `flag.txt` available.
+Read the content of the file using the following command:
+```
+cat flag.txt
+```
+
+here is the result:
+
+![image](https://github.com/huzaifa-jawad367/HackTheBox/assets/103884662/41485c15-a27f-4227-9e69-659213a6d9b7)
