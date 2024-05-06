@@ -58,7 +58,7 @@ Ans: `ls`
 Ans: `get`
 
 ## Task 12
-**Submit root flag**
+**Submit root flag** \
 Ans:
 ```
 ftp -v <target-ip>
